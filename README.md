@@ -3,11 +3,13 @@
 Tema: Jogos com IA
 Objetivo: Criar jogos com IA
 
-Fontes: procuradas junto com a propria ferramenta do Gemini notebook
+Fontes: procuradas junto com a propria ferramenta do Gemini notebook e alguns videos escolhidos por mim no youtube
 Diretrizes: pedi para o gemini para me ajudar a criar Prompts de exemplo para a criação de jogos
 
 Perguntas:
-1) como eu posso utilizar a IA para criar jogos, sem que esses jogos pareçam ser de IA?:Para utilizar a Inteligência Artificial no desenvolvimento de jogos sem que o resultado pareça genérico ou "com cara de IA", o segredo está em posicionar a tecnologia como **infraestrutura de bastidores** e adotar uma abordagem **humano no circuito (** **human-in-the-loop** **)**[1].
+1) como eu posso utilizar a IA para criar jogos, sem que esses jogos pareçam ser de IA?:
+  
+   Para utilizar a Inteligência Artificial no desenvolvimento de jogos sem que o resultado pareça genérico ou "com cara de IA", o segredo está em posicionar a tecnologia como **infraestrutura de bastidores** e adotar uma abordagem **humano no circuito (** **human-in-the-loop** **)**[1].
 
 A dependência excessiva de IA generativa não supervisionada costuma resultar em conteúdos padronizados, previsíveis e desprovidos de profundidade emocional[4][5]. Para evitar isso, o uso da IA no desenvolvimento pode ser estruturado em cinco pilares fundamentais:
 
@@ -39,7 +41,9 @@ A geração procedural sem regras pode criar cenários desconexos ou ilógicos[5
 * Para evitar a latência, a opacidade de modelos "caixa-preta" e os riscos de alucinações de LLMs em tempo real durante o jogo, o fluxo recomendado é treinar os modelos *off-line* e exportá-los no formato aberto **ONNX**[27]. Reincorpore os modelos à engine para rodar via motores de inferência embutidos, como o **Unity Sentis** ou o **Unreal NNE**[30]. Isso garante que a IA execute diretamente na GPU/CPU do dispositivo do jogador de forma rápida, eficiente e imperceptível[27]
 
 
-2) qual é o melhor criador de jogos para jogos indies?: Não existe um único motor de jogo (*game engine*) considerado o "melhor" absoluto para todos os desenvolvedores independentes, pois a escolha ideal depende do escopo do projeto, da dimensão do jogo (2D ou 3D), da linguagem de programação de sua preferência e dos recursos necessários[1].
+2) qual é o melhor criador de jogos para jogos indies?:
+
+   Não existe um único motor de jogo (*game engine*) considerado o "melhor" absoluto para todos os desenvolvedores independentes, pois a escolha ideal depende do escopo do projeto, da dimensão do jogo (2D ou 3D), da linguagem de programação de sua preferência e dos recursos necessários[1].
 
 As três principais engines mais utilizadas no cenário indie são:
 
